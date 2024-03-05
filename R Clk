@@ -1,0 +1,17 @@
+% Reverse Clock Program in MATLAB
+
+% Input: Desired hour and minute
+hour = input('Enter the hour (0-23): ');
+minute = input('Enter the minute (0-59): ');
+
+% Check the validity of input hour and minute
+if hour < 0 || hour > 23 || minute < 0 || minute > 59
+    disp('Invalid input! Please enter valid hour (0-23) and minute (0-59).');
+else
+    % Convert input hour and minute to reverse time
+    reversed_hour = 23 - hour;
+    reversed_minute = 59 - minute;
+
+    % Display the reverse time
+    fprintf('Reversed time: %02d:%02d\n', reversed_hour, reversed_minute);
+end
