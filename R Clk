@@ -1,6 +1,6 @@
 % Reverse Clock Program in MATLAB
 
-% Input: Desired hour and minute.0
+% Input: Desired hour and minute.
 hour = input('Enter the hour (0-23): ');
 minute = input('Enter the minute (0-59): ');
 
